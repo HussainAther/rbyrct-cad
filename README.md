@@ -1,4 +1,4 @@
-## `rbyrct-cad`
+## rbyrct-cad
 
 Parametric CAD and geometry definitions for the Ray-by-Ray Computed Tomography (RBYRCT) system.
 
@@ -52,8 +52,6 @@ The goal is to maintain **consistent geometry across:**
 
 ### Repository Structure
 
-(then include the structure)
-
 ---
 
 ### Future Work
@@ -62,7 +60,7 @@ The goal is to maintain **consistent geometry across:**
 * Integration with reconstruction pipelines
 * XR-based visualization
 
-
+```
 rbyrct-cad/
 │
 ├── README.md
@@ -103,3 +101,4 @@ rbyrct-cad/
 └── integration/
     ├── topas/
     ├── reconstruction/
+```
