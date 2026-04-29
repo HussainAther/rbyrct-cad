@@ -18,6 +18,21 @@ The goal is to keep the geometry consistent across:
 
 ### Origin
 
+## Detector Architecture: Adaptive Sparse Panels
+
+The baseline detector configuration uses sparse, modular detector panels rather than a continuous full detector ring.
+
+Each detector panel is defined by:
+
+- panel index
+- angular position
+- radial distance from imaging center
+- panel width
+- panel height
+- active/inactive state
+
+This supports adaptive ray sampling and targeted acquisition strategies for RBYRCT reconstruction.
+
 The origin is defined as the center of the imaging volume:
 
 ```text
