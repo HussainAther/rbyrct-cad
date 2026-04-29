@@ -2,6 +2,10 @@
 
 Parametric CAD and geometry definitions for the Ray-by-Ray Computed Tomography (RBYRCT) system.
 
+```
+geometry JSON → Python generator → CAD/Blender/Fusion/Houdini outputs
+```
+
 ### Overview
 
 This repository defines the **geometric foundation** of the RBYRCT architecture, including:
